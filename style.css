@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+body{
+    margin-top: 100px;
+    font-family: 'Roboto',sans-serif;
+}
+
+
+.calc-btn{
+    background-color: whitesmoke;
+    color: black;
+    width: 25px;
+    height: 45px;
+    border:1px solid gray;
+    text-align: center;
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: 100;
+    padding-top: 3px;
+}
+
+.calc-btn:hover{
+    background-color: lightpink;
+}
+
+.row{
+    display: table;
+    table-layout: fixed;
+    width: 300px;
+}
+
+.column{
+    display: table-cell;
+}
+
+#calc-zero{
+    width: 52.6666667px;
+    border-radius: 0 0 0 7px;
+}
+
+#calc-clear{
+    /* width: 51.6666667px; */
+}
+#calc-display-val{
+
+    height: 80px;
+    color: black;
+    text-align: right;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    font-size: 32px;
+    background-color: whitesmoke;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 12px;
+  
+}
+
+
+.calc-btn-operator{
+    background-color: lightsalmon;
+    color: white;
+}
+
+
+#calc-equals{
+    border-radius: 0 0 7px 0;
+}
+
+#container{
+    margin-left: calc(50% - 250px);
+}
+
+#calc-percentage{
+    background-color: whitesmoke;
+    color: black;
+}
+
+#calc-percentage:hover{
+    background-color: lightpink;
+}
+
+
+
+#calc-Heading{
+    border: 1px solid gray;
+    border-radius: 7px 7px 0 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    
+}
